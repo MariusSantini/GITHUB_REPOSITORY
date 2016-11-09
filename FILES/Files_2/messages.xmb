@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE messagebundle [
+<!ELEMENT messagebundle (msg)*>
+<!ATTLIST messagebundle class CDATA #IMPLIED>
+
+<!ELEMENT msg (#PCDATA|ph|source)*>
+<!ATTLIST msg id CDATA #IMPLIED>
+<!ATTLIST msg seq CDATA #IMPLIED>
+<!ATTLIST msg name CDATA #IMPLIED>
+<!ATTLIST msg desc CDATA #IMPLIED>
+<!ATTLIST msg meaning CDATA #IMPLIED>
+<!ATTLIST msg obsolete (obsolete) #IMPLIED>
+<!ATTLIST msg xml:space (default|preserve) "default">
+<!ATTLIST msg is_hidden CDATA #IMPLIED>
+
+<!ELEMENT source (#PCDATA)>
+
+<!ELEMENT ph (#PCDATA|ex)*>
+<!ATTLIST ph name CDATA #REQUIRED>
+
+<!ELEMENT ex (#PCDATA)>
+]>
+<messagebundle>
+  <msg id="efffb64bda94fa4f4493322c5e3717e845d5dc30">Day</msg>
+  <msg id="db1fd4024b4210d2b0c7501ca9c448e2cc8f43b4">night</msg>
+  <msg id="c46f0d88738d796bbd3bc8aeb9d5747ee7a5113c">nights</msg>
+  <msg id="23b9ca6976d37e61b826c3d2e148455d6b1a35b7">Hotel:</msg>
+  <msg id="588a6366125293459e0ad7540aa58b4e9cb917de">Room:</msg>
+  <msg id="da82cfffa16bb89176be6cea9ae9b513d8a33993">Hotels</msg>
+  <msg id="19cecd49046d686211736257fe7f109ae9c4f46a">from</msg>
+  <msg id="b7da3e3505cc80f9bf3cffc8444c53e8a9ec70a5">Available</msg>
+  <msg id="48c8a4c9473e85ff49b8c71cf6a0190fdeb4a945">More details.</msg>
+  <msg id="d3dfb1ca49bb491ad804012a2ea1838e9e263cfd">Rooms</msg>
+  <msg id="86a59352b4e6aca12e18a94f997fef906623303c">Amenities: </msg>
+  <msg id="f98d741d721bc1e9a7df39511ff844d59ff7fd1b">and more.</msg>
+  <msg id="259e157015a952139c9ef5ce6ec06ee8a6356bd6">Non refundable</msg>
+  <msg id="0823b6fa0ce2d5a309a5a8aee5fd86d6575100e5">Flexible rate</msg>
+  <msg id="b0422a0c1ced71fd3c39e61a0d123e8360244ee3">PROMO!</msg>
+  <msg id="9ca82952a6bc860b5391d5975322d8af8ceddfa4">Select</msg>
+  <msg id="f79611b9cc78f612ae8cc2cce08ff9f14581aeb3">Selected</msg>
+</messagebundle>
