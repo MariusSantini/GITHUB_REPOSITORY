@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE messagebundle [
+<!ELEMENT messagebundle (msg)*>
+<!ATTLIST messagebundle class CDATA #IMPLIED>
+<!ELEMENT msg (#PCDATA|ph|source)*>
+<!ATTLIST msg id CDATA #IMPLIED>
+<!ATTLIST msg seq CDATA #IMPLIED>
+<!ATTLIST msg name CDATA #IMPLIED>
+<!ATTLIST msg desc CDATA #IMPLIED>
+<!ATTLIST msg meaning CDATA #IMPLIED>
+<!ATTLIST msg obsolete (obsolete) #IMPLIED>
+<!ATTLIST msg xml:space (default|preserve) 'default'>
+<!ATTLIST msg is_hidden CDATA #IMPLIED>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT ph (#PCDATA|ex)*>
+<!ATTLIST ph name CDATA #REQUIRED>
+<!ELEMENT ex (#PCDATA)>
+]>
+<translationbundle>
+  <translation id="efffb64bda94fa4f4493322c5e3717e845d5dc30" xml:space="default">Tag</translation>
+  <translation id="db1fd4024b4210d2b0c7501ca9c448e2cc8f43b4" xml:space="default">nacht</translation>
+  <translation id="c46f0d88738d796bbd3bc8aeb9d5747ee7a5113c" xml:space="default">Nächte</translation>
+  <translation id="23b9ca6976d37e61b826c3d2e148455d6b1a35b7" xml:space="default">Hotel:</translation>
+  <translation id="588a6366125293459e0ad7540aa58b4e9cb917de" xml:space="default">Room:</translation>
+  <translation id="da82cfffa16bb89176be6cea9ae9b513d8a33993" xml:space="default">Hotels</translation>
+  <translation id="19cecd49046d686211736257fe7f109ae9c4f46a" xml:space="default">from</translation>
+  <translation id="b7da3e3505cc80f9bf3cffc8444c53e8a9ec70a5" xml:space="default">Available</translation>
+  <translation id="48c8a4c9473e85ff49b8c71cf6a0190fdeb4a945" xml:space="default">More details.</translation>
+  <translation id="d3dfb1ca49bb491ad804012a2ea1838e9e263cfd" xml:space="default">Rooms</translation>
+  <translation id="86a59352b4e6aca12e18a94f997fef906623303c" xml:space="default">Amenities:</translation>
+  <translation id="f98d741d721bc1e9a7df39511ff844d59ff7fd1b" xml:space="default">and more.</translation>
+  <translation id="259e157015a952139c9ef5ce6ec06ee8a6356bd6" xml:space="default">Non refundable</translation>
+  <translation id="0823b6fa0ce2d5a309a5a8aee5fd86d6575100e5" xml:space="default">Flexible rate</translation>
+  <translation id="b0422a0c1ced71fd3c39e61a0d123e8360244ee3" xml:space="default">PROMO!</translation>
+  <translation id="9ca82952a6bc860b5391d5975322d8af8ceddfa4" xml:space="default">Select</translation>
+  <translation id="f79611b9cc78f612ae8cc2cce08ff9f14581aeb3" xml:space="default">Selected</translation>
+</translationbundle>
