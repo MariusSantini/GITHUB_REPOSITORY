@@ -38,4 +38,5 @@
   <msg id="b0422a0c1ced71fd3c39e61a0d123e8360244ee3">PROMO!</msg>
   <msg id="9ca82952a6bc860b5391d5975322d8af8ceddfa4">Select</msg>
   <msg id="f79611b9cc78f612ae8cc2cce08ff9f14581aeb3">Selected</msg>
+  <msg id="f79611b9cc78f612ae8cc2cce08ff9f14581aeb4">NEW STRING</msg>
 </messagebundle>
